@@ -19,3 +19,8 @@ Using it to prevent changes that could damage the integrity of the program
 Why don’t people do that often?
 If it is within a function it would be passed by value and therefore not make any drastic changes.
 
+Ex.
+void constfunction
+{
+	num = 1;
+};
